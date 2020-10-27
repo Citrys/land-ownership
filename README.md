@@ -10,11 +10,11 @@ Utility for generating tree of relations between companies
 with aggregation report of used land ownership
 
 ## Usage details
-has two modes:
---mode=from_root
+CLI tool has two modes:
+- mode=from_root
 draws the relations from the root level
 
---mode=expand
+- mode=expand
 expand the tree from the current company level
 
 ## Technologies
@@ -22,6 +22,6 @@ Project is created with:
 Python3 version
 
 ## Setup
-run project install: python3 setup.py install
-run initiate db: data_feed
-run help: landtree  --h
+- run project install: python3 setup.py install
+- run initiate db: data_feed
+- run help: landtree  --h
